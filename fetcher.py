@@ -14,4 +14,3 @@ def get_scarab_prices():
 
         print(f"{name} | {chaos_value}c | Change: {change}%")
 
-get_scarab_prices()
