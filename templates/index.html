@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="300">
+    <title>POE Scarab Tracker</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: #eee;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+        h1 {
+            color: #e94560;
+        }
+        h2 {
+            color: #0f3460;
+            background: #e94560;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+        th {
+            background-color: #0f3460;
+            padding: 10px;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+        tr:hover {
+            background-color: #16213e;
+        }
+        .spike {
+            color: #00ff88;
+            font-weight: bold;
+        }
+        .no-data {
+            color: #888;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>⚔️ POE Scarab Tracker — Mirage League</h1>
+    <p>Auto refreshes every 5 minutes</p>
+
+    <h2>🚀 Spiking Scarabs (poe.ninja data)</h2>
+    {% if poe_spikes %}
+    <table>
+        <tr>
+            <th>Scarab</th>
+            <th>Price (Chaos)</th>
+            <th>Change</th>
+        </tr>
+        {% for item in poe_spikes %}
+        <tr>
+            <td>{{ item.name }}</td>
+            <td>{{ item.chaos_value }}c</td>
+            <td class="spike">+{{ item.change }}%</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p class="no-data">No major spikes right now.</p>
+    {% endif %}
+
+    <h2>📈 Spiking Scarabs (our own history)</h2>
+    {% if our_spikes %}
+    <table>
+        <tr>
+            <th>Scarab</th>
+            <th>Old Price</th>
+            <th>Current Price</th>
+            <th>Change</th>
+            <th>Last Seen</th>
+        </tr>
+        {% for item in our_spikes %}
+        <tr>
+            <td>{{ item.name }}</td>
+            <td>{{ item.old_price }}c</td>
+            <td>{{ item.current_price }}c</td>
+            <td class="spike">+{{ item.change }}%</td>
+            <td>{{ item.last_seen }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p class="no-data">Not enough history yet. Check back after a few refreshes!</p>
+    {% endif %}
+
+</body>
+</html>

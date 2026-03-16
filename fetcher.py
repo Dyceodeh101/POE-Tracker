@@ -31,3 +31,11 @@ def get_scarab_prices():
 
     else:
         print('No significant opportunities detected based on our data.')
+
+def get_scarab_data():
+    url = "https://poe.ninja/api/data/itemoverview?league=Mirage&type=Scarab"
+    response = requests.get(url)
+    data = response.json()
+    scarabs = data['lines']
+    save_history(scarabs)
+    return scarabs,
