@@ -1,4 +1,6 @@
 import requests
+from analyzer import find_spikes
+from storage import save_history
 
 def get_scarab_prices():
     url = "https://poe.ninja/api/data/itemoverview?league=Mirage&type=Scarab"
@@ -7,10 +9,13 @@ def get_scarab_prices():
 
     scarab = data['lines']
 
-    for scarab in scarab:
-        name = scarab['name']
-        chaos_value = scarab['chaosValue']
-        change = scarab.get("sparkline", {}).get("totalChange", 0)
+    save_history(scarab)
 
-        print(f"{name} | {chaos_value}c | Change: {change}%")
+    opportunities = find_spikes(scarab)
 
+    if opportunities:
+        print('Price Spikes Detected:')
+        for item in opportunities:
+            print(f"{item['name']}: {item['chaos_value']}c (Change: {item['change']}%)")
+    else:
+        print('No significant price spikes detected.')
