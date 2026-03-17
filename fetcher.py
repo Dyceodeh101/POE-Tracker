@@ -5,36 +5,49 @@ from alerts import send_spike_email
 
 LEAGUE = "Mirage"
 
+BASE_URL = "https://poe.ninja/poe1/api/economy/exchange/current"
+
 ITEM_TYPES = {
-    "Scarab": f"https://poe.ninja/poe1/api/economy/stash/current/item/overview?league={LEAGUE}&type=Scarab",
-    "DivinationCard": f"https://poe.ninja/poe1/api/economy/stash/current/item/overview?league={LEAGUE}&type=DivinationCard",
-    "Fossil": f"https://poe.ninja/poe1/api/economy/stash/current/item/overview?league={LEAGUE}&type=Fossil",
-    "Currency": f"https://poe.ninja/poe1/api/economy/stash/current/currency/overview?league={LEAGUE}&type=Currency",
+    "Scarab":         f"{BASE_URL}/overview?league={LEAGUE}&type=Scarab",
+    "DivinationCard": f"{BASE_URL}/overview?league={LEAGUE}&type=DivinationCard",
+    "Fossil":         f"{BASE_URL}/overview?league={LEAGUE}&type=Fossil",
+    "Currency":       f"{BASE_URL}/overview?league={LEAGUE}&type=Currency",
+}
+
+HEADERS = {
+    "User-Agent": "poe-economy-tracker/1.0 contact@youremail.com"
 }
 
 def fetch_items(item_type, url):
-    response = requests.get(url)
+    response = requests.get(url, headers=HEADERS)
+    response.raise_for_status()
     data = response.json()
-    items = data.get("lines", [])
-    
-    # Temporary debug - find horned scarab of bloodlines specifically
-    if item_type == "Scarab":
-        for item in items:
-            if "Bloodlines" in item.get("name", ""):
-                print(f"DEBUG BLOODLINES: {item['name']} = {item['chaosValue']}c")
-    
-    return items
+
+    lines = data.get("lines", [])
+    items = data.get("items", [])
+
+    # Build id -> name lookup
+    name_lookup = {item["id"]: item["name"] for item in items}
+
+    # Attach readable name and normalize field names
+    result = []
+    for line in lines:
+        item_id = line.get("id")
+        line["name"] = name_lookup.get(item_id, item_id)
+        line["chaosValue"] = line.get("primaryValue", 0)
+        line["sparkLine"] = line.get("sparkline", {})
+        result.append(line)
+
+    return result
 
 def get_divine_rate():
-    url = f"https://poe.ninja/poe1/api/economy/stash/current/currency/overview?league={LEAGUE}&type=Currency"
-    response = requests.get(url)
+    url = f"{BASE_URL}/overview?league={LEAGUE}&type=Currency"
+    response = requests.get(url, headers=HEADERS)
+    response.raise_for_status()
     data = response.json()
-    
-    for currency in data.get("lines", []):
-        if currency.get("currencyTypeName") == "Divine Orb":
-            return currency.get("chaosEquivalent", 1)
-    
-    return 1
+
+    core = data.get("core", {})
+    return core.get("divineRate", 1)
 
 def get_scarab_data():
     all_items = []
@@ -45,7 +58,7 @@ def get_scarab_data():
             item["itemType"] = item_type
         save_history(items, category=item_type)
         all_items.extend(items)
-    
+
     divine_rate = get_divine_rate()
     return all_items, divine_rate
 

@@ -1,6 +1,6 @@
 from storage import load_history
 
-def find_spikes(items, min_chaos=2, spike_threshold=10):
+def find_spikes(items, min_chaos=5, spike_threshold=30):
     opportunities = []
 
     for item in items:
@@ -21,7 +21,7 @@ def find_spikes(items, min_chaos=2, spike_threshold=10):
     return opportunities
 
 
-def find_our_spikes(min_chaos=2, spike_threshold=15):
+def find_our_spikes(min_chaos=5, spike_threshold=30):
     history = load_history()
     our_spikes = []
 
