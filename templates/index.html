@@ -102,7 +102,79 @@
     {% else %}
     <p class="no-data">Not enough history yet. Check back after a few refreshes!</p>
     {% endif %}
+<!-- Chart.js library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
 
+<!-- Chart popup modal -->
+<div id="chartModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:999;">
+    <div style="background:#16213e; margin:5% auto; padding:30px; width:70%; border-radius:8px; position:relative;">
+        <button onclick="closeChart()" style="position:absolute; top:10px; right:15px; background:#e94560; color:white; border:none; padding:8px 14px; border-radius:4px; cursor:pointer; font-size:16px;">✕ Close</button>
+        <h2 id="chartTitle" style="color:#e94560;">Price History</h2>
+        <canvas id="priceChart"></canvas>
+        <p id="noDataMsg" style="color:#888; display:none;">Not enough history yet. Check back after a few refreshes!</p>
+    </div>
+</div>
+
+<script>
+    let currentChart = null;
+
+    async function showChart(itemKey, itemName) {
+        const modal = document.getElementById("chartModal");
+        const canvas = document.getElementById("priceChart");
+        const noDataMsg = document.getElementById("noDataMsg");
+        const title = document.getElementById("chartTitle");
+
+        title.innerText = itemName + " - Price History";
+        modal.style.display = "block";
+
+        const response = await fetch(`/history/${itemKey}`);
+        const entries = await response.json();
+
+        if (entries.length < 2) {
+            canvas.style.display = "none";
+            noDataMsg.style.display = "block";
+            return;
+        }
+
+        canvas.style.display = "block";
+        noDataMsg.style.display = "none";
+
+        const labels = entries.map(e => e.time);
+        const prices = entries.map(e => e.price);
+
+        if (currentChart) currentChart.destroy();
+
+        currentChart = new Chart(canvas, {
+            type: "line",
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: "Chaos Value",
+                    data: prices,
+                    borderColor: "#e94560",
+                    backgroundColor: "rgba(233,69,96,0.1)",
+                    tension: 0.3,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { labels: { color: "#eee" } }
+                },
+                scales: {
+                    x: { ticks: { color: "#aaa" } },
+                    y: { ticks: { color: "#aaa" } }
+                }
+            }
+        });
+    }
+
+    function closeChart() {
+        document.getElementById("chartModal").style.display = "none";
+        if (currentChart) currentChart.destroy();
+    }
+</script>
 </body>
 <h2>📊 All Items by Price</h2>
 <table>
@@ -113,16 +185,18 @@
         <th>Price (Divine)</th>
         <th>Change</th>
     </tr>
-    {% for item in all_items %}
-    <tr>
-        <td>{{ item.itemType }}</td>
-        <td>{{ item.get("name") or item.get("currencyTypeName") }}</td>
-        <td>{{ item.get("chaosValue") or item.get("chaosEquivalent") }}c</td>
-        <td>{{ "%.2f"|format((item.get("chaosValue") or item.get("chaosEquivalent") or 0) / divine_rate) }} div</td>
-        <td class="{% if item.get('sparkline', {}).get('totalChange', 0) > 0 %}spike{% else %}drop{% endif %}">
-            {{ item.get("sparkline", {}).get("totalChange", 0) }}%
-        </td>
-    </tr>
-    {% endfor %}
+{% for item in all_items %}
+{% set item_name = item.get("name") or item.get("currencyTypeName") %}
+{% set item_key = item.itemType + ":" + item_name %}
+<tr style="cursor:pointer;" onclick="showChart('{{ item_key }}', '{{ item_name }}')">
+    <td>{{ item.itemType }}</td>
+    <td>{{ item_name }}</td>
+    <td>{{ item.get("chaosValue") or item.get("chaosEquivalent") }}c</td>
+    <td>{{ "%.2f"|format((item.get("chaosValue") or item.get("chaosEquivalent") or 0) / divine_rate) }} div</td>
+    <td class="{% if item.get('sparkline', {}).get('totalChange', 0) > 0 %}spike{% else %}drop{% endif %}">
+        {{ item.get("sparkline", {}).get("totalChange", 0) }}%
+    </td>
+</tr>
+{% endfor %}
 </table>
 </html>
