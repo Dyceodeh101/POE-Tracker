@@ -36,9 +36,10 @@ def fetch_items(item_type, url):
         line["name"] = name_lookup.get(item_id, item_id)
         line["chaosValue"] = line.get("maxVolumeRate", line.get("primaryValue", 0))
         line["sparkLine"] = line.get("sparkline", {})
+        print(f"DEBUG: {line.get('name')} | chaosValue: {line.get('chaosValue')} | primaryValue: {line.get('primaryValue')} | maxVolumeRate: {line.get('maxVolumeRate')}")
         result.append(line)
 
-        return result
+    return result
 
 def get_divine_rate():
     url = f"{BASE_URL}/overview?league={LEAGUE}&type=Currency"
