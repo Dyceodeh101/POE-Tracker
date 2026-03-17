@@ -35,18 +35,12 @@ def fetch_items(item_type, url, divine_rate=1):
         item_id = line.get("id")
         line["name"] = name_lookup.get(item_id, item_id)
     
-        max_volume_rate = line.get("maxVolumeRate", 0)
-        max_volume_currency = line.get("maxVolumeCurrency", "chaos")
+        primary_value = line.get("primaryValue", 0)
 
-        if max_volume_rate == 0:
+        if primary_value == 0:
             continue
-    
-    # If maxVolumeCurrency is divine, convert to chaos
-        if max_volume_currency == "divine":
-            line["chaosValue"] = max_volume_rate * divine_rate
-        else:
-            line["chaosValue"] = 1/max_volume_rate
-    
+
+        line["chaosValue"] = primary_value
         line["sparkLine"] = line.get("sparkline", {})
         result.append(line)
 
