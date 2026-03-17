@@ -45,6 +45,10 @@
             color: #888;
             font-style: italic;
         }
+        .drop {
+            color: #ff4444;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -55,12 +59,14 @@
     {% if poe_spikes %}
     <table>
         <tr>
+            <th>Item Type</th>
             <th>Scarab</th>
             <th>Price (Chaos)</th>
             <th>Change</th>
         </tr>
         {% for item in poe_spikes %}
         <tr>
+            <td>{{ item.item_type }}</td>
             <td>{{ item.name }}</td>
             <td>{{ item.chaos_value }}c</td>
             <td class="spike">+{{ item.change }}%</td>
@@ -75,6 +81,7 @@
     {% if our_spikes %}
     <table>
         <tr>
+            <th>Item Type</th>
             <th>Scarab</th>
             <th>Old Price</th>
             <th>Current Price</th>
@@ -83,6 +90,7 @@
         </tr>
         {% for item in our_spikes %}
         <tr>
+            <td>{{ item.category }}</td>
             <td>{{ item.name }}</td>
             <td>{{ item.old_price }}c</td>
             <td>{{ item.current_price }}c</td>
@@ -96,4 +104,23 @@
     {% endif %}
 
 </body>
+<h2>📊 All Items by Price</h2>
+<table>
+    <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Price (Chaos)</th>
+        <th>Change</th>
+    </tr>
+    {% for item in all_items %}
+    <tr>
+        <td>{{ item.itemType }}</td>
+        <td>{{ item.get("name") or item.get("currencyTypeName") }}</td>
+        <td>{{ item.get("chaosValue") or item.get("chaosEquivalent") }}c</td>
+        <td class="{% if item.get('sparkline', {}).get('totalChange', 0) > 0 %}spike{% else %}drop{% endif %}">
+            {{ item.get("sparkline", {}).get("totalChange", 0) }}%
+        </td>
+    </tr>
+    {% endfor %}
+</table>
 </html>

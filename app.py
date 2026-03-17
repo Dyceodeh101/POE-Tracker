@@ -9,7 +9,15 @@ def index():
     scarabs, = get_scarab_data()
     poe_spikes = find_spikes(scarabs)
     our_spikes = find_our_spikes()
-    return render_template("index.html", poe_spikes=poe_spikes, our_spikes=our_spikes)
+    
+    # Sort all items by price, filter out cheap junk under 2c
+    all_items = sorted(
+        [i for i in scarabs if (i.get("chaosValue") or i.get("chaosEquivalent", 0)) >= 2],
+        key=lambda x: x.get("chaosValue") or x.get("chaosEquivalent", 0),
+        reverse=True
+    )
+    
+    return render_template("index.html", poe_spikes=poe_spikes, our_spikes=our_spikes, all_items=all_items)
 
 if __name__ == "__main__":
     app.run(debug=True)
