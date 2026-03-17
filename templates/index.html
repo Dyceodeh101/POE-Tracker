@@ -91,33 +91,40 @@
     {% endif %}
 
     <h2>📊 All Items by Price</h2>
-    <table>
-        <tr>
-            <th>Type</th>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Change</th>
-        </tr>
-        {% for item in all_items %}
-        {% set item_name = item.get("name") or item.get("currencyTypeName") %}
-        {% set item_key = item.itemType + ":" + item_name %}
-        {% set chaos_val = item.get("chaosValue") or item.get("chaosEquivalent") or 0 %}
-        {% set div_val = chaos_val / divine_rate %}
-        <tr style="cursor:pointer;" onclick="showChart('{{ item_key | replace("'", "\\'") }}', '{{ item_name | replace("'", "\\'") }}')">
-            <td>{{ item.itemType }}</td>
-            <td>{{ item_name }}</td>
-            <td>
-                {% if div_val >= 1 %}
-                    {{ "%.2f"|format(div_val) }} div
-                {% else %}
-                    {{ chaos_val }}c
-                {% endif %}
-            </td>
-            <td class="{% if item.get('sparkLine', {}).get('totalChange', 0) > 0 %}spike{% else %}drop{% endif %}">
-                {{ item.get('sparkLine', {}).get('totalChange', 0) }}%
-            </td>
-        </tr>
-        {% endfor %} 
+
+    {% for item_type, items in grouped_items.items() %}
+    <details open>
+        <summary style="cursor:pointer; background:#0f3460; padding:10px; border-radius:4px; margin-bottom:8px; font-size:1.1em; font-weight:bold; color:#eee; list-style:none;">
+            {{ item_type }}s <span style="color:#888; font-size:0.9em;">({{ items|length }})</span>
+        </summary>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Change</th>
+            </tr>
+            {% for item in items %}
+            {% set item_name = item.get("name") or item.get("currencyTypeName") %}
+            {% set item_key = item.itemType + ":" + item_name %}
+            {% set chaos_val = item.get("chaosValue") or item.get("chaosEquivalent") or 0 %}
+            {% set div_val = chaos_val / divine_rate %}
+            <tr style="cursor:pointer;" onclick="showChart('{{ item_key | replace("'", "\\'") }}', '{{ item_name | replace("'", "\\'") }}')">
+                <td>{{ item_name }}</td>
+                <td>
+                    {% if div_val >= 1 %}
+                        {{ "%.2f"|format(div_val) }} div
+                    {% else %}
+                        {{ chaos_val }}c
+                    {% endif %}
+                </td>
+                <td class="{% if item.get('sparkLine', {}).get('totalChange', 0) > 0 %}spike{% else %}drop{% endif %}">
+                    {{ item.get('sparkLine', {}).get('totalChange', 0) }}%
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </details>
+    {% endfor %}
     </table>
 
     <!-- Chart popup modal -->
