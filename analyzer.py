@@ -24,19 +24,19 @@ def find_our_spikes(min_chaos=2, spike_threshold=15):
     our_spikes = []
 
     for name, entries in history.items():
-        # Need at least 2 data points to compare
-        if len(entries) < 2:
+        # Filter out any bad entries missing price field
+        valid_entries = [e for e in entries if "price" in e]
+        
+        if len(valid_entries) < 2:
             continue
 
-        oldest_price = entries[0]["price"]
-        latest_price = entries[-1]["price"]
-        latest_time = entries[-1]["time"]
+        oldest_price = valid_entries[0]["price"]
+        latest_price = valid_entries[-1]["price"]
+        latest_time = valid_entries[-1].get("time", "N/A")
 
-        # Avoid dividing by zero
         if oldest_price == 0:
             continue
 
-        # Calculate our own % change
         our_change = ((latest_price - oldest_price) / oldest_price) * 100
 
         if latest_price >= min_chaos and our_change >= spike_threshold:
