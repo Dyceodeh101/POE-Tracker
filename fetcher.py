@@ -47,7 +47,11 @@ def get_divine_rate():
     data = response.json()
 
     core = data.get("core", {})
-    return core.get("divineRate", 1)
+    rates = core.get("rates", {})
+    divine_chaos_rate = rates.get("divine", 1)
+    
+    # rate is chaos-per-divine inverted, so we flip it
+    return 1 / divine_chaos_rate if divine_chaos_rate else 1
 
 def get_scarab_data():
     all_items = []
