@@ -12,11 +12,10 @@ def index():
     our_spikes = find_our_spikes()
 
     all_items = sorted(
-        [i for i in all_items if (i.get("chaosValue") or i.get("chaosEquivalent", 0)) >= 2 and i.get("count", 0) >= 10],  # at least 10 real transactions
-        key=lambda x: x.get("chaosValue") or x.get("chaosEquivalent", 0),
+        [i for i in all_items if i.get("chaosValue", 0) >= 2 and i.get("volumePrimaryValue", 0) >= 10],
+        key=lambda x: x.get("chaosValue", 0),
         reverse=True
     )
-
 
     return render_template("index.html", poe_spikes=poe_spikes, our_spikes=our_spikes, all_items=all_items, divine_rate=divine_rate)
 
