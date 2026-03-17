@@ -21,13 +21,15 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
         th {
             background-color: #0f3460;
             padding: 10px;
             text-align: left;
+            cursor: pointer;
         }
+        th:hover { background-color: #1a4a8a; }
         td {
             padding: 10px;
             border-bottom: 1px solid #333;
@@ -36,6 +38,51 @@
         .spike { color: #00ff88; font-weight: bold; }
         .drop { color: #ff4444; font-weight: bold; }
         .no-data { color: #888; font-style: italic; }
+
+        /* Search box */
+        #searchBox {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            background: #16213e;
+            border: 1px solid #0f3460;
+            color: #eee;
+            border-radius: 4px;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+
+        /* Category sections */
+        details {
+            margin-bottom: 10px;
+        }
+        details summary {
+            cursor: pointer;
+            background: #0f3460;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 4px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #eee;
+            list-style: none;
+            user-select: none;
+        }
+        details summary:hover { background: #1a4a8a; }
+
+        /* Show more button */
+        .show-more-btn {
+            background: #0f3460;
+            color: #eee;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+        .show-more-btn:hover { background: #1a4a8a; }
+        .hidden-row { display: none; }
     </style>
 </head>
 <body>
@@ -49,9 +96,9 @@
             <th>Type</th>
             <th>Name</th>
             <th>Price (Chaos)</th>
-            <th>Change</th>
+            <th>Change ↓</th>
         </tr>
-        {% for item in poe_spikes %}
+        {% for item in poe_spikes | sort(attribute='change', reverse=True) %}
         <tr>
             <td>{{ item.item_type }}</td>
             <td>{{ item.name }}</td>
@@ -72,10 +119,10 @@
             <th>Name</th>
             <th>Old Price</th>
             <th>Current Price</th>
-            <th>Change</th>
+            <th>Change ↓</th>
             <th>Last Seen</th>
         </tr>
-        {% for item in our_spikes %}
+        {% for item in our_spikes | sort(attribute='change', reverse=True) %}
         <tr>
             <td>{{ item.category }}</td>
             <td>{{ item.name }}</td>
@@ -91,13 +138,14 @@
     {% endif %}
 
     <h2>📊 All Items by Price</h2>
+    <input type="text" id="searchBox" placeholder="🔍 Search items..." onkeyup="filterItems()">
 
     {% for item_type, items in grouped_items.items() %}
-    <details open>
-        <summary style="cursor:pointer; background:#0f3460; padding:10px; border-radius:4px; margin-bottom:8px; font-size:1.1em; font-weight:bold; color:#eee; list-style:none;">
+    <details>
+        <summary>
             {{ item_type }}s <span style="color:#888; font-size:0.9em;">({{ items|length }})</span>
         </summary>
-        <table>
+        <table class="item-table" data-type="{{ item_type }}">
             <tr>
                 <th>Name</th>
                 <th>Price</th>
@@ -108,24 +156,32 @@
             {% set item_key = item.itemType + ":" + item_name %}
             {% set chaos_val = item.get("chaosValue") or item.get("chaosEquivalent") or 0 %}
             {% set div_val = chaos_val / divine_rate %}
-            <tr style="cursor:pointer;" onclick="showChart('{{ item_key | replace("'", "\\'") }}', '{{ item_name | replace("'", "\\'") }}')">
+            {% set change = item.get('sparkLine', {}).get('totalChange', 0) %}
+            <tr class="item-row {% if loop.index > 10 %}hidden-row{% endif %}"
+                data-name="{{ item_name | lower }}"
+                style="cursor:pointer;"
+                onclick="showChart('{{ item_key | replace("'", "\\'") }}', '{{ item_name | replace("'", "\\'") }}')">
                 <td>{{ item_name }}</td>
                 <td>
                     {% if div_val >= 1 %}
                         {{ "%.2f"|format(div_val) }} div
                     {% else %}
-                        {{ chaos_val }}c
+                        {{ "%.2f"|format(chaos_val) }}c
                     {% endif %}
                 </td>
-                <td class="{% if item.get('sparkLine', {}).get('totalChange', 0) > 0 %}spike{% else %}drop{% endif %}">
-                    {{ item.get('sparkLine', {}).get('totalChange', 0) }}%
+                <td class="{% if change > 0 %}spike{% else %}drop{% endif %}">
+                    {% if change > 0 %}+{% endif %}{{ change }}%
                 </td>
             </tr>
             {% endfor %}
         </table>
+        {% if items|length > 10 %}
+        <button class="show-more-btn" onclick="showMore(this)">
+            Show all {{ items|length }} items
+        </button>
+        {% endif %}
     </details>
     {% endfor %}
-    </table>
 
     <!-- Chart popup modal -->
     <div id="chartModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:999;">
@@ -137,42 +193,64 @@
         </div>
     </div>
 
-    <!-- Chart.js library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
-
     <script>
-        // Desktop notifications
+        // Notifications
         function requestNotificationPermission() {
-            if ("Notification" in window) {
-                Notification.requestPermission();
-            }
+            if ("Notification" in window) Notification.requestPermission();
         }
 
         function sendNotification(title, body) {
             if ("Notification" in window && Notification.permission === "granted") {
-                new Notification(title, {
-                    body: body,
-                    icon: "https://web.poecdn.com/favicon.ico"
-                });
+                new Notification(title, { body: body, icon: "https://web.poecdn.com/favicon.ico" });
             }
         }
 
         function checkSpikes() {
             const spikes = {{ poe_spikes | tojson }};
-            if (spikes.length > 0) {
-                spikes.forEach(spike => {
-                    sendNotification(
-                        "🚀 POE Spike Detected!",
-                        `${spike.name} is up ${spike.change}% — now ${spike.chaos_value}c`
-                    );
-                });
-            }
+            spikes.forEach(spike => {
+                sendNotification("🚀 POE Spike Detected!", `${spike.name} is up ${spike.change}% — now ${spike.chaos_value}c`);
+            });
         }
 
         requestNotificationPermission();
         checkSpikes();
 
-        // Price charts
+        // Search filter
+        function filterItems() {
+            const query = document.getElementById("searchBox").value.toLowerCase();
+            const details = document.querySelectorAll("details");
+
+            details.forEach(detail => {
+                const rows = detail.querySelectorAll(".item-row");
+                let visibleCount = 0;
+
+                rows.forEach(row => {
+                    const name = row.getAttribute("data-name");
+                    const matches = name.includes(query);
+                    row.style.display = matches ? "" : "none";
+                    if (matches) visibleCount++;
+                });
+
+                // Auto open sections with matches when searching
+                if (query.length > 0) {
+                    detail.open = visibleCount > 0;
+                }
+            });
+        }
+
+        // Show more
+        function showMore(btn) {
+            const details = btn.closest("details");
+            const hiddenRows = details.querySelectorAll(".hidden-row");
+            hiddenRows.forEach(row => {
+                row.classList.remove("hidden-row");
+                row.style.display = "";
+            });
+            btn.style.display = "none";
+        }
+
+        // Charts
         let currentChart = null;
 
         async function showChart(itemKey, itemName) {
@@ -184,47 +262,50 @@
             title.innerText = itemName + " - Price History";
             modal.style.display = "block";
 
-            const response = await fetch(`/history/${itemKey}`);
-            const entries = await response.json();
+            try {
+                const response = await fetch(`/history/${encodeURIComponent(itemKey)}`);
+                const entries = await response.json();
 
-            if (entries.length < 2) {
+                if (!entries || entries.length < 2) {
+                    canvas.style.display = "none";
+                    noDataMsg.style.display = "block";
+                    return;
+                }
+
+                canvas.style.display = "block";
+                noDataMsg.style.display = "none";
+
+                const labels = entries.map(e => e.time);
+                const prices = entries.map(e => e.price);
+
+                if (currentChart) currentChart.destroy();
+
+                currentChart = new Chart(canvas, {
+                    type: "line",
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: "Chaos Value",
+                            data: prices,
+                            borderColor: "#e94560",
+                            backgroundColor: "rgba(233,69,96,0.1)",
+                            tension: 0.3,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: { legend: { labels: { color: "#eee" } } },
+                        scales: {
+                            x: { ticks: { color: "#aaa" } },
+                            y: { ticks: { color: "#aaa" } }
+                        }
+                    }
+                });
+            } catch (err) {
                 canvas.style.display = "none";
                 noDataMsg.style.display = "block";
-                return;
             }
-
-            canvas.style.display = "block";
-            noDataMsg.style.display = "none";
-
-            const labels = entries.map(e => e.time);
-            const prices = entries.map(e => e.price);
-
-            if (currentChart) currentChart.destroy();
-
-            currentChart = new Chart(canvas, {
-                type: "line",
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: "Chaos Value",
-                        data: prices,
-                        borderColor: "#e94560",
-                        backgroundColor: "rgba(233,69,96,0.1)",
-                        tension: 0.3,
-                        fill: true
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        legend: { labels: { color: "#eee" } }
-                    },
-                    scales: {
-                        x: { ticks: { color: "#aaa" } },
-                        y: { ticks: { color: "#aaa" } }
-                    }
-                }
-            });
         }
 
         function closeChart() {
