@@ -110,6 +110,7 @@
         <th>Type</th>
         <th>Name</th>
         <th>Price (Chaos)</th>
+        <th>Price (Divine)</th>
         <th>Change</th>
     </tr>
     {% for item in all_items %}
@@ -117,6 +118,7 @@
         <td>{{ item.itemType }}</td>
         <td>{{ item.get("name") or item.get("currencyTypeName") }}</td>
         <td>{{ item.get("chaosValue") or item.get("chaosEquivalent") }}c</td>
+        <td>{{ "%.2f"|format((item.get("chaosValue") or item.get("chaosEquivalent") or 0) / divine_rate) }} div</td>
         <td class="{% if item.get('sparkline', {}).get('totalChange', 0) > 0 %}spike{% else %}drop{% endif %}">
             {{ item.get("sparkline", {}).get("totalChange", 0) }}%
         </td>
