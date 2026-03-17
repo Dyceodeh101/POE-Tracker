@@ -5,8 +5,8 @@ def find_spikes(items, min_chaos=5, spike_threshold=30):
 
     for item in items:
         name = item.get("name") or item.get("currencyTypeName", "Unknown")
-        chaos_value = item.get("chaosValue") or item.get("chaosEquivalent", 0)
-        change = item.get("sparkLine", {}).get("totalChange", 0)
+        chaos_value = item.get("chaosValue") or item.get("primaryValue", 0)
+        change = item.get("sparkLine", {}).get("totalChange", 0) or item.get("sparkline", {}).get("totalChange", 0)
         item_type = item.get("itemType", "Unknown")
 
         if chaos_value >= min_chaos and change >= spike_threshold:
@@ -19,7 +19,6 @@ def find_spikes(items, min_chaos=5, spike_threshold=30):
 
     opportunities.sort(key=lambda x: x["change"], reverse=True)
     return opportunities
-
 
 def find_our_spikes(min_chaos=5, spike_threshold=30):
     history = load_history()
