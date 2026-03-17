@@ -18,7 +18,7 @@ HEADERS = {
     "User-Agent": "poe-economy-tracker/1.0 contact@youremail.com"
 }
 
-def fetch_items(item_type, url):
+def fetch_items(item_type, url, divine_rate=1):
     response = requests.get(url, headers=HEADERS)
     response.raise_for_status()
     data = response.json()
@@ -34,9 +34,18 @@ def fetch_items(item_type, url):
     for line in lines:
         item_id = line.get("id")
         line["name"] = name_lookup.get(item_id, item_id)
-        line["chaosValue"] = line.get("maxVolumeRate", line.get("primaryValue", 0))
+    
+        primary_value = line.get("primaryValue", 0)
+        max_volume_rate = line.get("maxVolumeRate", 0)
+        max_volume_currency = line.get("maxVolumeCurrency", "chaos")
+    
+     # If maxVolumeCurrency is divine, convert to chaos
+        if max_volume_currency == "divine":
+            line["chaosValue"] = max_volume_rate * divine_rate
+        else:
+            line["chaosValue"] = max_volume_rate
+    
         line["sparkLine"] = line.get("sparkline", {})
-        print(f"DEBUG: {line.get('name')} | chaosValue: {line.get('chaosValue')} | primaryValue: {line.get('primaryValue')} | maxVolumeRate: {line.get('maxVolumeRate')}")
         result.append(line)
 
     return result
@@ -55,10 +64,11 @@ def get_divine_rate():
     return 1 / divine_chaos_rate if divine_chaos_rate else 1
 
 def get_scarab_data():
+    divine_rate = get_divine_rate()
     all_items = []
     for item_type, url in ITEM_TYPES.items():
         print(f"📦 Fetching {item_type}s...")
-        items = fetch_items(item_type, url)
+        items = fetch_items(item_type, url, divine_rate)
         for item in items:
             item["itemType"] = item_type
         save_history(items, category=item_type)
