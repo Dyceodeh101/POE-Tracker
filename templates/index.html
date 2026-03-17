@@ -11,9 +11,7 @@
             font-family: Arial, sans-serif;
             padding: 30px;
         }
-        h1 {
-            color: #e94560;
-        }
+        h1 { color: #e94560; }
         h2 {
             color: #0f3460;
             background: #e94560;
@@ -34,33 +32,22 @@
             padding: 10px;
             border-bottom: 1px solid #333;
         }
-        tr:hover {
-            background-color: #16213e;
-        }
-        .spike {
-            color: #00ff88;
-            font-weight: bold;
-        }
-        .no-data {
-            color: #888;
-            font-style: italic;
-        }
-        .drop {
-            color: #ff4444;
-            font-weight: bold;
-        }
+        tr:hover { background-color: #16213e; }
+        .spike { color: #00ff88; font-weight: bold; }
+        .drop { color: #ff4444; font-weight: bold; }
+        .no-data { color: #888; font-style: italic; }
     </style>
 </head>
 <body>
     <h1>⚔️ POE Scarab Tracker — Mirage League</h1>
     <p>Auto refreshes every 5 minutes</p>
 
-    <h2>🚀 Spiking Scarabs (poe.ninja data)</h2>
+    <h2>🚀 Spiking Items (poe.ninja data)</h2>
     {% if poe_spikes %}
     <table>
         <tr>
-            <th>Item Type</th>
-            <th>Scarab</th>
+            <th>Type</th>
+            <th>Name</th>
             <th>Price (Chaos)</th>
             <th>Change</th>
         </tr>
@@ -77,12 +64,12 @@
     <p class="no-data">No major spikes right now.</p>
     {% endif %}
 
-    <h2>📈 Spiking Scarabs (our own history)</h2>
+    <h2>📈 Spiking Items (our own history)</h2>
     {% if our_spikes %}
     <table>
         <tr>
-            <th>Item Type</th>
-            <th>Scarab</th>
+            <th>Type</th>
+            <th>Name</th>
             <th>Old Price</th>
             <th>Current Price</th>
             <th>Change</th>
@@ -102,101 +89,135 @@
     {% else %}
     <p class="no-data">Not enough history yet. Check back after a few refreshes!</p>
     {% endif %}
-<!-- Chart.js library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
 
-<!-- Chart popup modal -->
-<div id="chartModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:999;">
-    <div style="background:#16213e; margin:5% auto; padding:30px; width:70%; border-radius:8px; position:relative;">
-        <button onclick="closeChart()" style="position:absolute; top:10px; right:15px; background:#e94560; color:white; border:none; padding:8px 14px; border-radius:4px; cursor:pointer; font-size:16px;">✕ Close</button>
-        <h2 id="chartTitle" style="color:#e94560;">Price History</h2>
-        <canvas id="priceChart"></canvas>
-        <p id="noDataMsg" style="color:#888; display:none;">Not enough history yet. Check back after a few refreshes!</p>
+    <h2>📊 All Items by Price</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Name</th>
+            <th>Price (Chaos)</th>
+            <th>Price (Divine)</th>
+            <th>Change</th>
+        </tr>
+        {% for item in all_items %}
+        {% set item_name = item.get("name") or item.get("currencyTypeName") %}
+        {% set item_key = item.itemType + ":" + item_name %}
+        <tr style="cursor:pointer;" onclick="showChart('{{ item_key | replace("'", "\\'") }}', '{{ item_name | replace("'", "\\'") }}')">
+            <td>{{ item.itemType }}</td>
+            <td>{{ item_name }}</td>
+            <td>{{ item.get("chaosValue") or item.get("chaosEquivalent") }}c</td>
+            <td>{{ "%.2f"|format((item.get("chaosValue") or item.get("chaosEquivalent") or 0) / divine_rate) }} div</td>
+            <td class="{% if item.get('sparkline', {}).get('totalChange', 0) > 0 %}spike{% else %}drop{% endif %}">
+                {{ item.get("sparkline", {}).get("totalChange", 0) }}%
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <!-- Chart popup modal -->
+    <div id="chartModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:999;">
+        <div style="background:#16213e; margin:5% auto; padding:30px; width:70%; border-radius:8px; position:relative;">
+            <button onclick="closeChart()" style="position:absolute; top:10px; right:15px; background:#e94560; color:white; border:none; padding:8px 14px; border-radius:4px; cursor:pointer; font-size:16px;">✕ Close</button>
+            <h2 id="chartTitle" style="color:#e94560;">Price History</h2>
+            <canvas id="priceChart"></canvas>
+            <p id="noDataMsg" style="color:#888; display:none;">Not enough history yet. Check back after a few refreshes!</p>
+        </div>
     </div>
-</div>
 
-<script>
-    let currentChart = null;
+    <!-- Chart.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
 
-    async function showChart(itemKey, itemName) {
-        const modal = document.getElementById("chartModal");
-        const canvas = document.getElementById("priceChart");
-        const noDataMsg = document.getElementById("noDataMsg");
-        const title = document.getElementById("chartTitle");
-
-        title.innerText = itemName + " - Price History";
-        modal.style.display = "block";
-
-        const response = await fetch(`/history/${itemKey}`);
-        const entries = await response.json();
-
-        if (entries.length < 2) {
-            canvas.style.display = "none";
-            noDataMsg.style.display = "block";
-            return;
+    <script>
+        // Desktop notifications
+        function requestNotificationPermission() {
+            if ("Notification" in window) {
+                Notification.requestPermission();
+            }
         }
 
-        canvas.style.display = "block";
-        noDataMsg.style.display = "none";
-
-        const labels = entries.map(e => e.time);
-        const prices = entries.map(e => e.price);
-
-        if (currentChart) currentChart.destroy();
-
-        currentChart = new Chart(canvas, {
-            type: "line",
-            data: {
-                labels: labels,
-                datasets: [{
-                    label: "Chaos Value",
-                    data: prices,
-                    borderColor: "#e94560",
-                    backgroundColor: "rgba(233,69,96,0.1)",
-                    tension: 0.3,
-                    fill: true
-                }]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: { labels: { color: "#eee" } }
-                },
-                scales: {
-                    x: { ticks: { color: "#aaa" } },
-                    y: { ticks: { color: "#aaa" } }
-                }
+        function sendNotification(title, body) {
+            if ("Notification" in window && Notification.permission === "granted") {
+                new Notification(title, {
+                    body: body,
+                    icon: "https://web.poecdn.com/favicon.ico"
+                });
             }
-        });
-    }
+        }
 
-    function closeChart() {
-        document.getElementById("chartModal").style.display = "none";
-        if (currentChart) currentChart.destroy();
-    }
-</script>
+        function checkSpikes() {
+            const spikes = {{ poe_spikes | tojson }};
+            if (spikes.length > 0) {
+                spikes.forEach(spike => {
+                    sendNotification(
+                        "🚀 POE Spike Detected!",
+                        `${spike.name} is up ${spike.change}% — now ${spike.chaos_value}c`
+                    );
+                });
+            }
+        }
+
+        requestNotificationPermission();
+        checkSpikes();
+
+        // Price charts
+        let currentChart = null;
+
+        async function showChart(itemKey, itemName) {
+            const modal = document.getElementById("chartModal");
+            const canvas = document.getElementById("priceChart");
+            const noDataMsg = document.getElementById("noDataMsg");
+            const title = document.getElementById("chartTitle");
+
+            title.innerText = itemName + " - Price History";
+            modal.style.display = "block";
+
+            const response = await fetch(`/history/${itemKey}`);
+            const entries = await response.json();
+
+            if (entries.length < 2) {
+                canvas.style.display = "none";
+                noDataMsg.style.display = "block";
+                return;
+            }
+
+            canvas.style.display = "block";
+            noDataMsg.style.display = "none";
+
+            const labels = entries.map(e => e.time);
+            const prices = entries.map(e => e.price);
+
+            if (currentChart) currentChart.destroy();
+
+            currentChart = new Chart(canvas, {
+                type: "line",
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: "Chaos Value",
+                        data: prices,
+                        borderColor: "#e94560",
+                        backgroundColor: "rgba(233,69,96,0.1)",
+                        tension: 0.3,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { labels: { color: "#eee" } }
+                    },
+                    scales: {
+                        x: { ticks: { color: "#aaa" } },
+                        y: { ticks: { color: "#aaa" } }
+                    }
+                }
+            });
+        }
+
+        function closeChart() {
+            document.getElementById("chartModal").style.display = "none";
+            if (currentChart) currentChart.destroy();
+        }
+    </script>
 </body>
-<h2>📊 All Items by Price</h2>
-<table>
-    <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Price (Chaos)</th>
-        <th>Price (Divine)</th>
-        <th>Change</th>
-    </tr>
-{% for item in all_items %}
-{% set item_name = item.get("name") or item.get("currencyTypeName") %}
-{% set item_key = item.itemType + ":" + item_name %}
-<tr style="cursor:pointer;" onclick="showChart('{{ item_key }}', '{{ item_name }}')">
-    <td>{{ item.itemType }}</td>
-    <td>{{ item_name }}</td>
-    <td>{{ item.get("chaosValue") or item.get("chaosEquivalent") }}c</td>
-    <td>{{ "%.2f"|format((item.get("chaosValue") or item.get("chaosEquivalent") or 0) / divine_rate) }} div</td>
-    <td class="{% if item.get('sparkline', {}).get('totalChange', 0) > 0 %}spike{% else %}drop{% endif %}">
-        {{ item.get("sparkline", {}).get("totalChange", 0) }}%
-    </td>
-</tr>
-{% endfor %}
-</table>
 </html>
