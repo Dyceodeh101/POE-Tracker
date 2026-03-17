@@ -10,23 +10,28 @@ def load_history():
             return json.load(f)
     return {}
 
-def save_history(scarabs):
+def save_history(items, category="Unknown"):
     history = load_history()
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    for scarab in scarabs:
-        name = scarab['name']
-        chaos_value = scarab['chaosValue']
+    for item in items:
+        # Currency items use different name field
+        name = item.get("name") or item.get("currencyTypeName", "Unknown")
+        chaos_value = item.get("chaosValue") or item.get("chaosEquivalent", 0)
 
-        if name not in history:
-            history[name] = []
+        # Use category:name as key to avoid conflicts
+        key = f"{category}:{name}"
 
-        history[name].append({
-            "timestamp": timestamp,
-            "price": chaos_value
+        if key not in history:
+            history[key] = []
+
+        history[key].append({
+            "time": timestamp,
+            "price": chaos_value,
+            "category": category
         })
 
     with open(HISTORY_FILE, "w") as f:
-        json.dump(history, f, indent=4)
+        json.dump(history, f, indent=2)
 
-    print(f'Prices saved at {timestamp}')
+    print(f"{category} prices saved at {timestamp}")

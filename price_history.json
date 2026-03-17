@@ -1,668 +1,4706 @@
 {
-    "Horned Scarab of Bloodlines": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 50.0
-        }
-    ],
-    "Ambush Scarab of Containment": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 10.0
-        }
-    ],
-    "Horned Scarab of Preservation": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 10.0
-        }
-    ],
-    "Horned Scarab of Awakening": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 10.0
-        }
-    ],
-    "Ultimatum Scarab of Catalysing": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 10.0
-        }
-    ],
-    "Horned Scarab of Pandemonium": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.4
-        }
-    ],
-    "Domination Scarab of Terrors": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Blight Scarab of Blooming": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Incursion Scarab of Timelines": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Ultimatum Scarab of Dueling": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Horned Scarab of Tradition": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Horned Scarab of Glittering": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Harvest Scarab of Cornucopia": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Essence Scarab of Calcification": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Essence Scarab of Adaptation": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Blight Scarab of Invigoration": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Breach Scarab of Resonant Cascade": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Cartography Scarab of Risk": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Divination Scarab of Pilfering": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Kalguuran Scarab of Refinement": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Breach Scarab of the Incensed Swarm": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 5.0
-        }
-    ],
-    "Scarab of Radiant Storms": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 4.9
-        }
-    ],
-    "Legion Scarab of Eternal Conflict": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 4.2
-        }
-    ],
-    "Beyond Scarab of the Invasion": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Abyss Scarab of Edifice": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Essence Scarab of Ascent": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Ritual Scarab of Abundance": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Harvest Scarab of Doubling": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Horned Scarab of Nemeses": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Scarab of Wisps": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Torment Scarab of Possession": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Abyss Scarab of Profound Depth": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Legion Scarab of Treasures": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Anarchy Scarab of the Exceptional": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 3.0
-        }
-    ],
-    "Delirium Scarab of Neuroses": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.8
-        }
-    ],
-    "Delirium Scarab of Paranoia": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.8
-        }
-    ],
-    "Scarab of the Dextral": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.2
-        }
-    ],
-    "Essence Scarab of Stability": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.17
-        }
-    ],
-    "Scarab of Monstrous Lineage": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Sulphite Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Cartography Scarab of Corruption": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Incursion Scarab of Invasion": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Ambush Scarab of Discernment": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Ambush Scarab of Potency": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Sulphite Scarab of Fumes": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Bestiary Scarab of the Herd": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Bestiary Scarab of Duplicating": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Ambush Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Anarchy Scarab of Gigantification": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Ultimatum Scarab of Bribing": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Ambush Scarab of Hidden Compartments": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Betrayal Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Influencing Scarab of Hordes": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Expedition Scarab of Runefinding": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Beyond Scarab of Haemophilia": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Anarchy Scarab of Partnership": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Delirium Scarab of Delusions": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Betrayal Scarab of Reinforcements": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Ultimatum Scarab of Inscription": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Incursion Scarab of Champions": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Expedition Scarab of Archaeology": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Beyond Scarab of Resurgence": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Scarab of Stability": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Legion Scarab of Officers": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Scarab of Divinity": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Cartography Scarab of the Multitude": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Ritual Scarab of Wisps": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Blight Scarab of the Blightheart": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Domination Scarab of Apparitions": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Divination Scarab of Plenty": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Domination Scarab of Evolution": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Divination Scarab of The Cloister": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Titanic Scarab of Legend": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Titanic Scarab of Treasures": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Betrayal Scarab of the Allflame": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Kalguuran Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Kalguuran Scarab of Guarded Riches": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Scarab of the Sinistral": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Expedition Scarab of Infusion": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Betrayal Scarab of Unbreaking": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Breach Scarab of the Marshal": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Breach Scarab of Instability": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Abyss Scarab of Descending": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Breach Scarab of the Hive": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Influencing Scarab of Interference": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Kalguuran Scarab of Enriching": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Ritual Scarab of Corpses": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 2.0
-        }
-    ],
-    "Delirium Scarab of Mania": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.7
-        }
-    ],
-    "Bestiary Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.3
-        }
-    ],
-    "Torment Scarab of Peculiarity": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.1
-        }
-    ],
-    "Anarchy Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Essence Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Harvest Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Ritual Scarab of Selectiveness": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Legion Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Expedition Scarab of Verisium Powder": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Beyond Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Incursion Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Blight Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Ultimatum Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Scarab of Adversaries": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Abyss Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Delirium Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Torment Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Influencing Scarab of the Shaper": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Abyss Scarab of Multitudes": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Expedition Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Domination Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Influencing Scarab of the Elder": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Cartography Scarab of Escalation": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ],
-    "Titanic Scarab": [
-        {
-            "timestamp": "2026-03-16 19:54:29",
-            "price": 1.0
-        }
-    ]
+  "Scarab:Horned Scarab of Bloodlines": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 29.3,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ambush Scarab of Containment": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 10.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Horned Scarab of Preservation": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 10.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Horned Scarab of Awakening": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 10.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ultimatum Scarab of Catalysing": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 10.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Horned Scarab of Pandemonium": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.1,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Domination Scarab of Terrors": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Blight Scarab of Blooming": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Incursion Scarab of Timelines": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ultimatum Scarab of Dueling": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Horned Scarab of Tradition": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Horned Scarab of Glittering": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Harvest Scarab of Cornucopia": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Essence Scarab of Calcification": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Essence Scarab of Adaptation": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Blight Scarab of Invigoration": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Breach Scarab of Resonant Cascade": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Divination Scarab of Pilfering": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Kalguuran Scarab of Refinement": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Breach Scarab of the Incensed Swarm": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 5.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Scarab of Radiant Storms": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 4.9,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Cartography Scarab of Risk": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 4.8,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Legion Scarab of Eternal Conflict": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 4.2,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Beyond Scarab of the Invasion": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Abyss Scarab of Edifice": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Essence Scarab of Ascent": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ritual Scarab of Abundance": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Harvest Scarab of Doubling": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Horned Scarab of Nemeses": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Scarab of Wisps": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Abyss Scarab of Profound Depth": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Legion Scarab of Treasures": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Anarchy Scarab of the Exceptional": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 3.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Delirium Scarab of Paranoia": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.8,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Essence Scarab of Stability": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.14,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Scarab of Monstrous Lineage": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Sulphite Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Delirium Scarab of Neuroses": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Cartography Scarab of Corruption": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Incursion Scarab of Invasion": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ambush Scarab of Discernment": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ambush Scarab of Potency": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Sulphite Scarab of Fumes": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Bestiary Scarab of the Herd": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Bestiary Scarab of Duplicating": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ambush Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Anarchy Scarab of Gigantification": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ultimatum Scarab of Bribing": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ambush Scarab of Hidden Compartments": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Betrayal Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Influencing Scarab of Hordes": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Expedition Scarab of Runefinding": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Beyond Scarab of Haemophilia": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Anarchy Scarab of Partnership": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Delirium Scarab of Delusions": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Betrayal Scarab of Reinforcements": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ultimatum Scarab of Inscription": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Incursion Scarab of Champions": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Expedition Scarab of Archaeology": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Beyond Scarab of Resurgence": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Scarab of Stability": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Legion Scarab of Officers": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Torment Scarab of Possession": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Scarab of Divinity": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Cartography Scarab of the Multitude": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ritual Scarab of Wisps": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Blight Scarab of the Blightheart": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Domination Scarab of Apparitions": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Divination Scarab of Plenty": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Domination Scarab of Evolution": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Divination Scarab of The Cloister": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Titanic Scarab of Legend": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Titanic Scarab of Treasures": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Betrayal Scarab of the Allflame": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Kalguuran Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Kalguuran Scarab of Guarded Riches": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Scarab of the Sinistral": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Expedition Scarab of Infusion": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Betrayal Scarab of Unbreaking": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Breach Scarab of the Marshal": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Breach Scarab of Instability": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Abyss Scarab of Descending": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Breach Scarab of the Hive": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Influencing Scarab of Interference": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Scarab of the Dextral": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Kalguuran Scarab of Enriching": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ritual Scarab of Corpses": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 2.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Delirium Scarab of Mania": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.8,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Torment Scarab of Peculiarity": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.1,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Anarchy Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Essence Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Harvest Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ritual Scarab of Selectiveness": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Legion Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Expedition Scarab of Verisium Powder": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Beyond Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Incursion Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Blight Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Ultimatum Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Scarab of Adversaries": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Abyss Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Delirium Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Torment Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Influencing Scarab of the Shaper": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Abyss Scarab of Multitudes": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Bestiary Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Expedition Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Domination Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Influencing Scarab of the Elder": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Cartography Scarab of Escalation": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "Scarab:Titanic Scarab": [
+    {
+      "time": "2026-03-16 20:06:13",
+      "price": 1.0,
+      "category": "Scarab"
+    }
+  ],
+  "DivinationCard:The Leviathan": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1000032,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Apothecary": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 10034,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Father's Love": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 7168,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Eye of Terror": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5791,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Fire Of Unknown Origin": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4874,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:History": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4874,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Price of Devotion": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4587,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Demon": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2752,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Doctor": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2663,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Slumbering Beast": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2638,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Insane Cat": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2351,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Progeny of Lunaris": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2322,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Fiend": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2179,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Immortal": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1852,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Reflection of the Heart": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1434,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Matryoshka": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1376,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Choking Guilt": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1040,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Love Through Ice": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 716.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Rabbit's Foot": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 607.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Winter's Embrace": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 594.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Damned": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 573.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Brother's Gift": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 539.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Divine Justice": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 516.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Wealth and Power": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 401.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Seven Years Bad Luck": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 401.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Unrequited Love": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 348.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Nurse": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 344.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Endless Darkness": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 298.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Beauty Through Death": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 286.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Succor of the Sinless": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 286.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Shieldbearer": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 286.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Auspicious Ambitions": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 286.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Sephirot": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 209.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Gulf": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 203.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Lake": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 194.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The World Eater": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 180.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Desecrated Virtue": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 175.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Dragon's Heart": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 172.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:I See Brothers": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 151.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Pact": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 127.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Luminous Trove": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 119.9,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Samurai's Eye": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 117.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Lonely Warrior": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 98.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Destination": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 85.37,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Enlightened": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 83.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Greatest Intentions": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 76.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Outfoxed": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 59.14,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Soul": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 55.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Divine Beauty": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 55.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:One Last Score": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 45.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Familiar Call": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 37.67,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Gemcutter's Mercy": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 34.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Lethean Temptation": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 30.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Friendship": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 29.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Squandered Prosperity": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 23.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Dying Light": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 21.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Sacrifice": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 20.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Broken Promises": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 20.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:House of Mirrors": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 19.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Duality": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 17.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Eternal War": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 15.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Assassin's Gift": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 14.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Forbidden Fruit": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 13.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Astromancer": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 13.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Awakened": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 13.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Shortcut": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 12.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Temperance": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 11.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Chasing Risk": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 11.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Judging Voices": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 11.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Mad King": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 10.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Artist": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 10.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Patient": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 10.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Enforcer": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 10.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Fortunate": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 10.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Miracle": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 10.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Last One Standing": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 9.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Apocalypse": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 9.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Formless Sea": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 9.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Deadly Joy": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 9.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Long Con": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 9.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Last Supper": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 9.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Burning Blood": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 8.9,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Old Man": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 8.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Tranquillity": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 8.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Magnum Opus": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 8.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Queen": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 8.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Nook's Crown": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 8.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The White Knight": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 7.9,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Journey": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 7.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Terrible Secret of Space": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 7.3,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Price of Loyalty": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 7.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Home": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 7.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Further Invention": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 7.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wedding Gift": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 6.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Anarchy's Price": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 6.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Everlasting": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 6.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Who Asked": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 6.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Silence and Frost": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 6.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Mayor": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Vast": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Remembrance": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Polymath": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Garish Power": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Eye of the Dragon": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Monochrome": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Azyran's Reward": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Aspirant": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Imperfect Memories": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Dungeon Master": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Darker Half": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Something Dark": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Silly Boy": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Hunter's Reward": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Doryani's Epiphany": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Lucky Deck": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Brother's Stash": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Altered Perception": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Fate Worse Than Death": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Fishmonger": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Spark and the Flame": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.3,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Primordial": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Long Watch": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Avian Pursuit": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Strategist": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Academic": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Hook": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Eternal Bonds": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Misery in Darkness": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Shepherd's Sandals": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Draped in Dreams": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Perfection": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Akil's Prophecy": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Life Thief": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Rebirth and Renewal": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Chaotic Disposition": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Avenger": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Deep Ones": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Underground Forest": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Stone Perfected": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Catch": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Rusted Bard": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Last Laugh": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Dreamer": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.9,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Council of Cats": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.9,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Tumbleweed": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Merciless Armament": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Dapper Prodigy": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Dark Dreams": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Sambodhi's Wisdom": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Blessing of Moosh": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Desperate Crusade": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Professor": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Reckless Ambition": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Messenger": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Offspring": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Heterochromia": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Mawr Blaidd": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Arena Champion": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Ethereal": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Feast": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Incantation": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Road to Power": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Surgeon": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Hale Heart": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Admirer": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Darkest Dream": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Alluring Bounty": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Side Quest": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Chosen": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Escape": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Deathly Designs": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Peaceful Moments": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Brotherhood in Exile": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Bear Woman": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Costly Curio": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Parasitic Passengers": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Forward Gaze": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Checkmate": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Poisoned Faith": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Chilling Wind": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Toxic Tidings": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:When Currents Blaze": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Runic Luck": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The One That Got Away": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.9,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Craving": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Brush, Paint and Palette": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.8,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Forsaken": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Etched in Blood": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Ambitious Obsession": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Guardian's Challenge": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.7,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Warlord": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.65,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Bowyer's Dream": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Forgotten Treasure": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Prince of Darkness": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.6,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Dusty Memory": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.52,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Immortal Resolve": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Arrogance of the Vaal": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.5,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Throne": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Opulent": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Deceiver": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Breach": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Echoes of Love": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Justified Ambition": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.4,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wolf's Shadow": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.35,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Rabid Rhoa": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.3,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Note in the Wind": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.3,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Unchained": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.25,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wolf's Legacy": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Deal": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Easy Stroll": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Mind's Eyes": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.2,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Bound by Flame": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.15,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Light and Truth": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Jester": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Undisputed": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Golden Era": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Baited Expectations": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Lachrymal Necrosis": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.1,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Mother's Parting Gift": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Abandoned Wealth": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Assassin's Favour": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Audacity": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Blind Venture": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Boundless Realms": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Cartographer's Delight": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Coveted Possession": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Death": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Destined to Crumble": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Dialla's Subjugation": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Doedre's Madness": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Dying Anguish": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Earth Drinker": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Emperor of Purity": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Emperor's Luck": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Gemcutter's Promise": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Gift of the Gemling Queen": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Glimmer of Hope": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Grave Knowledge": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Her Mask": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Hope": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Hubris": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Humility": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Hunter's Resolve": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Jack in the Box": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Lantador's Lost Love": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Last Hope": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Lost Worlds": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Loyalty": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Lucky Connections": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Lysah's Respite": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Pride Before the Fall": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Prosperity": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Rain of Chaos": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Rain Tempter": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Rats": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Scholar of the Seas": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Shard of Fate": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Aesthete": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Battle Born": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Betrayal": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Body": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Brittle Emperor": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Calling": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Carrion Crow": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Cataclysm": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Catalyst": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Celestial Justicar": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Chains that Bind": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Conduit": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Cursed King": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Dark Mage": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Demoness": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Doppelganger": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Dragon": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Drunken Aristocrat": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Encroaching Darkness": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Endurance": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Explorer": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Fletcher": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Flora's Gift": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Fox": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Gambler": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Gemcutter": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Gentleman": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Gladiator": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Harvester": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Hermit": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Hoarder": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Hunger": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Inoculated": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Inventor": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The King's Blade": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The King's Heart": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Lich": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Lion": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Lord in Black": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Lover": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Lunaris Priestess": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Mercenary": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Metalsmith's Gift": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Oath": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Offering": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The One With All": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Pack Leader": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Penitent": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Poet": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Risk": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Scarred Meadow": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Scavenger": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Scholar": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Sigil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Siren": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Spoiled Prince": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Stormcaller": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Summoner": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Sun": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Surveyor": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Survivalist": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Thaumaturgist": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Tower": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Traitor": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Trial": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Twins": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Tyrant": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Union": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Valkyrie": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Visionary": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Void": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Warden": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Watcher": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Web": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wind": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wolf": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wrath": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Three Faces in the Dark": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Thunderous Skies": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Time-Lost Relic": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Treasure Hunter": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Turn the Other Cheek": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Vinia's Token": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Volatile Power": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Mitts": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Call to the First Ones": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wretched": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Lingering Remnants": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Coming Storm": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wolven King's Bite": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Saint's Treasure": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wolverine": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Standoff": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Porcupine": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Might is Right": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Atziri's Arsenal": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Struck by Lightning": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Blazing Fire": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Ruthless Ceinture": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:No Traces": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Realm": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Left to Fate": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Rebirth": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Insatiable": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Forbidden Power": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Three Voices": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Jeweller's Boon": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Army of Blood": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Beast": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Sword King's Salute": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Fathomless Depths": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Rite of Elements": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Dreamland": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Undaunted": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Witch": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Celestial Stone": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Harmony of Souls": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Innocent": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Boon of the First Ones": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Twilight Moon": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Wilted Rose": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Price of Protection": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Cacophony": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Master Artisan": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Dab of Ink": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Sambodhi's Vow": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Alone in the Darkness": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Lord of Celebration": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Dark Temptation": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Boon of Justice": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Seeker": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Vanity": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Thirst for Knowledge": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Imperial Legacy": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Fool": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Demigod's Wager": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Buried Treasure": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Pride of the First Ones": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Archmage's Right Hand": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Vile Power": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Heroic Shot": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Mountain": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Skeleton": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Void of the Elements": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:More is Never Enough": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Cameria's Cut": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Bones": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Tinkerer's Table": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Eldritch Decay": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Prometheus' Armoury": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Gift of Asenath": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Hive of Knowledge": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Unexpected Prize": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Triskaidekaphobia": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Journalist": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Cache": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Bitter Blossom": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Cursed Words": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Society's Remorse": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Whiteout": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Acclimatisation": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Haunting Shadows": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Keeper's Corruption": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Fateful Meeting": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Prejudice": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Adventuring Spirit": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Enthusiasts": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Card Sharp": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Modest Request": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Dementophobia": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:A Sea of Blue": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Price of Prescience": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Fox in the Brambles": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Disdain": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Scout": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Tireless Extractor": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Transformation": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Magma Crab": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Bijoux": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:From Bone to Ashes": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Brawny Battle Mage": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Astral Protection": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Azure Rage": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Broken Truce": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Endless Night": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Alivia's Grace": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Return of the Rat": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:The Finishing Touch": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Ever-Changing": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Man With Bear": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "DivinationCard:Eldritch Perfection": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "DivinationCard"
+    }
+  ],
+  "Fossil:Hollow Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 386.2,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Faceted Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 68.2,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Fractured Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 16.2,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Glyphic Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 10.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Shuddering Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 9.3,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Sanctified Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 7.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Serrated Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 7.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Gilded Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 6.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Corroded Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 6.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Aetheric Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Bound Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Dense Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Bloodstained Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Deft Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Fundamental Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 5.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Tangled Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.5,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Lucent Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.2,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Prismatic Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 4.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Aberrant Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Scorched Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 3.0,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Jagged Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.9,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Metallic Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.8,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Opulent Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 2.1,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Frigid Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.3,
+      "category": "Fossil"
+    }
+  ],
+  "Fossil:Pristine Fossil": [
+    {
+      "time": "2026-03-16 20:06:15",
+      "price": 1.0,
+      "category": "Fossil"
+    }
+  ],
+  "Currency:Hinekora's Lock": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 13420,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Reflecting Mist": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1540,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Dominance": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 660.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Awakener's Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 415.8,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Divine Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 252.7,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Tainted Divine Teardrop": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 220.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Fracturing Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 220.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Shaper's Exalted Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 220.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Tempering Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 215.6,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Conflict": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 177.8,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Tailoring Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 105.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Elder's Exalted Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 86.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Sacred Crystallised Lifeforce": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 53.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Exceptional Eldritch Ember": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 50.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Maven's Chisel of Proliferation": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 35.6,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Exceptional Eldritch Ichor": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 31.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Unravelling": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 29.2,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Remembrance": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 26.2,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Veiled Chaos Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 22.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Sacred Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 21.1,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Flesh of Xesht": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 20.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Eldritch Chaos Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 18.6,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Maven's Chisel of Scarabs": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 15.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Eldritch Orb of Annulment": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 13.5,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Tainted Orb of Fusing": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 12.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Maven's Chisel of Divination": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 12.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Maven's Chisel of Avarice": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 11.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Annulment": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 10.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Eldritch Exalted Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 10.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Intention": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 9.5,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Ancient Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 9.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Fertile Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 5.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Prismatic Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 5.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Ritual Vessel": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 5.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Tainted Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 5.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Refracting Fog": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 5.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Sinistral Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 5.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Volatile Vaal Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 5.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Grand Eldritch Ember": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 4.4,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Maven's Chisel of Procurement": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 4.2,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Unstable Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 4.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Crystallised Rancour": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 4.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Grand Eldritch Ichor": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 3.24,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Tempering Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 3.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Foulborn Regal Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 3.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Dextral Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 3.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Gemcutter's Prism": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 2.84,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Stacked Deck": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 2.44,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Exalted Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 2.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Turbulent Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 2.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Imbued Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 2.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Abrasive Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 2.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Noxious Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 2.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Accelerating Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 2.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Tainted Chromatic Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 2.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Intrinsic Catalyst": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1.9,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Foulborn Orb of Augmentation": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1.6,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Tainted Armourer's Scrap": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1.5,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Instilling Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1.32,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Regret": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1.25,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Enkindling Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1.06,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Tainted Jeweller's Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Greater Eldritch Ember": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Greater Eldritch Ichor": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 1.0,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Blessed Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.94,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Vaal Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.9,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Glassblower's Bauble": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.88,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Scouring": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.67,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Lesser Eldritch Ichor": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.67,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Regal Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.5,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Lesser Eldritch Ember": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.5,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Binding": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.48,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Unmaking": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.41,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Fusing": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.24,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Alchemy": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.17,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Alteration": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.16,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Blacksmith's Whetstone": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.14,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Chromatic Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.13,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Armourer's Scrap": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.12,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Chance": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.11,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Scroll of Wisdom": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.1,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Augmentation": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.09,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Jeweller's Orb": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.08,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Orb of Transmutation": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.05,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Portal Scroll": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.05,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Vivid Crystallised Lifeforce": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.03,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Primal Crystallised Lifeforce": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.03,
+      "category": "Currency"
+    }
+  ],
+  "Currency:Wild Crystallised Lifeforce": [
+    {
+      "time": "2026-03-16 20:06:16",
+      "price": 0.02,
+      "category": "Currency"
+    }
+  ]
 }
