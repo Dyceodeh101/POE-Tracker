@@ -70,7 +70,6 @@ def get_scarab_data():
         save_history(items, category=item_type)
         all_items.extend(items)
 
-    divine_rate = get_divine_rate()
     return all_items, divine_rate
 
 def get_scarab_prices():
