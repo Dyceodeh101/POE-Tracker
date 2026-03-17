@@ -6,20 +6,27 @@ from alerts import send_spike_email
 LEAGUE = "Mirage"
 
 ITEM_TYPES = {
-    "Scarab": f"https://poe.ninja/api/data/itemoverview?league={LEAGUE}&type=Scarab",
-    "DivinationCard": f"https://poe.ninja/api/data/itemoverview?league={LEAGUE}&type=DivinationCard",
-    "Fossil": f"https://poe.ninja/api/data/itemoverview?league={LEAGUE}&type=Fossil",
-    "Currency": f"https://poe.ninja/api/data/currencyoverview?league={LEAGUE}&type=Currency",
+    "Scarab": f"https://poe.ninja/poe1/api/economy/stash/current/item/overview?league={LEAGUE}&type=Scarab",
+    "DivinationCard": f"https://poe.ninja/poe1/api/economy/stash/current/item/overview?league={LEAGUE}&type=DivinationCard",
+    "Fossil": f"https://poe.ninja/poe1/api/economy/stash/current/item/overview?league={LEAGUE}&type=Fossil",
+    "Currency": f"https://poe.ninja/poe1/api/economy/stash/current/currency/overview?league={LEAGUE}&type=Currency",
 }
 
 def fetch_items(item_type, url):
     response = requests.get(url)
     data = response.json()
     items = data.get("lines", [])
+    
+    # Temporary debug - find horned scarab of bloodlines specifically
+    if item_type == "Scarab":
+        for item in items:
+            if "Bloodlines" in item.get("name", ""):
+                print(f"DEBUG BLOODLINES: {item['name']} = {item['chaosValue']}c")
+    
     return items
 
 def get_divine_rate():
-    url = f"https://poe.ninja/api/data/currencyoverview?league={LEAGUE}&type=Currency"
+    url = f"https://poe.ninja/poe1/api/economy/stash/current/currency/overview?league={LEAGUE}&type=Currency"
     response = requests.get(url)
     data = response.json()
     
